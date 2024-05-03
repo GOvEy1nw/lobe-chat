@@ -50,7 +50,7 @@ export const DEFAULT_AGENT_CONFIG: LobeAgentConfig = {
   displayMode: 'chat',
   enableAutoCreateTopic: true,
   historyCount: 1,
-  model: 'gpt-3.5-turbo',
+  model: 'claude-3-sonnet-20240229',
   params: {
     frequency_penalty: 0,
     presence_penalty: 0,
@@ -58,7 +58,7 @@ export const DEFAULT_AGENT_CONFIG: LobeAgentConfig = {
     top_p: 1,
   },
   plugins: [],
-  provider: ModelProvider.OpenAI,
+  provider: ModelProvider.Anthropic,
   systemRole: '',
   tts: DEFAUTT_AGENT_TTS_CONFIG,
 };
@@ -107,7 +107,7 @@ export const DEFAULT_LLM_CONFIG: GlobalLLMConfig = {
     enabledModels: filterEnabledModels(MoonshotProviderCard),
   },
   ollama: {
-    enabled: true,
+    enabled: false,
     enabledModels: filterEnabledModels(OllamaProviderCard),
     endpoint: '',
     fetchOnClient: true,

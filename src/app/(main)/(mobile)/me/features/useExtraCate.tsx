@@ -1,4 +1,4 @@
-import { DiscordIcon, Icon } from '@lobehub/ui';
+import { DiscordIcon, Icon } from '@govey1nw/lobehub-ui';
 import { Book, Feather, HardDriveDownload, HardDriveUpload } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 

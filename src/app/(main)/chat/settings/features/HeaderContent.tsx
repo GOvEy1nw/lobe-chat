@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@govey1nw/lobehub-ui';
 import { Button, Dropdown, MenuProps } from 'antd';
 import { useResponsive } from 'antd-style';
 import { HardDriveDownload } from 'lucide-react';

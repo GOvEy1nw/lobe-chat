@@ -1,4 +1,4 @@
-import { Avatar, Tag } from '@lobehub/ui';
+import { Avatar, Tag } from '@govey1nw/lobehub-ui';
 import { App, Button, Typography } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { startCase } from 'lodash-es';

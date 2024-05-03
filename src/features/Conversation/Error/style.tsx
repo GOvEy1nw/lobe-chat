@@ -1,4 +1,4 @@
-import { Avatar } from '@lobehub/ui';
+import { Avatar } from '@govey1nw/lobehub-ui';
 import { createStyles } from 'antd-style';
 import { ReactNode, memo } from 'react';
 import { Center, Flexbox } from 'react-layout-kit';

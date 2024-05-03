@@ -1,6 +1,6 @@
 'use client';
 
-import { Form, type ItemGroup } from '@lobehub/ui';
+import { Form, type ItemGroup } from '@govey1nw/lobehub-ui';
 import { App, Button, Input } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { signIn, signOut } from 'next-auth/react';

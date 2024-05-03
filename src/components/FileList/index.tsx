@@ -1,4 +1,4 @@
-import { ImageGallery } from '@lobehub/ui';
+import { ImageGallery } from '@govey1nw/lobehub-ui';
 import { memo, useMemo } from 'react';
 
 import GalleyGrid from '@/components/GalleyGrid';

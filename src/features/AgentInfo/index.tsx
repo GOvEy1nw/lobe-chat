@@ -1,4 +1,4 @@
-import { Avatar, Markdown, Tag } from '@lobehub/ui';
+import { Avatar, Markdown, Tag } from '@govey1nw/lobehub-ui';
 import { Divider } from 'antd';
 import { createStyles } from 'antd-style';
 import { startCase } from 'lodash-es';

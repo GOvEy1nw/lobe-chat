@@ -1,4 +1,4 @@
-import { ActionIcon, Avatar, Icon } from '@lobehub/ui';
+import { ActionIcon, Avatar, Icon } from '@govey1nw/lobehub-ui';
 import { Dropdown } from 'antd';
 import { createStyles } from 'antd-style';
 import type { ItemType } from 'antd/es/menu/hooks/useItems';

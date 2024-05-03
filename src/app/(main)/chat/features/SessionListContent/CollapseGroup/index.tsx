@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@govey1nw/lobehub-ui';
 import { Collapse, CollapseProps } from 'antd';
 import { createStyles } from 'antd-style';
 import { ChevronDown } from 'lucide-react';

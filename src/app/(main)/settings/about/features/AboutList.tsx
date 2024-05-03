@@ -1,6 +1,6 @@
 'use client';
 
-import { Grid, Icon } from '@lobehub/ui';
+import { Grid, Icon } from '@govey1nw/lobehub-ui';
 import { createStyles } from 'antd-style';
 import {
   Book,

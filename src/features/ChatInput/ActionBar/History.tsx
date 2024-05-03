@@ -1,4 +1,4 @@
-import { ActionIcon, SliderWithInput } from '@lobehub/ui';
+import { ActionIcon, SliderWithInput } from '@govey1nw/lobehub-ui';
 import { Popover, Switch } from 'antd';
 import { Timer, TimerOff } from 'lucide-react';
 import { memo } from 'react';

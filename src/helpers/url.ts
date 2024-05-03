@@ -1,4 +1,4 @@
-import { ChatMessage } from '@lobehub/ui';
+import { ChatMessage } from '@govey1nw/lobehub-ui';
 
 import { Compressor } from '@/utils/compass';
 

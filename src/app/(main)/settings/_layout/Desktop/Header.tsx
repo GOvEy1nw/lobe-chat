@@ -1,6 +1,6 @@
 'use client';
 
-import { ActionIcon, ChatHeader, ChatHeaderTitle } from '@lobehub/ui';
+import { ActionIcon, ChatHeader, ChatHeaderTitle } from '@govey1nw/lobehub-ui';
 import { Drawer, type DrawerProps, Tag } from 'antd';
 import { createStyles } from 'antd-style';
 import { Menu } from 'lucide-react';

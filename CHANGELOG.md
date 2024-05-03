@@ -9781,7 +9781,7 @@
 
 #### 💄 Styles
 
-- **misc**: Switch Modal components to @lobehub/ui.
+- **misc**: Switch Modal components to @govey1nw/lobehub-ui.
 
 <br />
 
@@ -9790,7 +9790,7 @@
 
 #### Styles
 
-- **misc**: Switch Modal components to @lobehub/ui ([d056015](https://github.com/lobehub/lobe-chat/commit/d056015))
+- **misc**: Switch Modal components to @govey1nw/lobehub-ui ([d056015](https://github.com/lobehub/lobe-chat/commit/d056015))
 
 </details>
 

@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@govey1nw/lobehub-ui';
 import { Button, Input } from 'antd';
 import { Network } from 'lucide-react';
 import { ReactNode, memo, useState } from 'react';

@@ -1,4 +1,4 @@
-import { SearchBar } from '@lobehub/ui';
+import { SearchBar } from '@govey1nw/lobehub-ui';
 import { useUnmount } from 'ahooks';
 import { useResponsive } from 'antd-style';
 import { memo, useState } from 'react';

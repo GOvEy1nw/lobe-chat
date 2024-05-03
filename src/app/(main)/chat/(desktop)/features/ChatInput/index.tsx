@@ -1,4 +1,4 @@
-import { DraggablePanel } from '@lobehub/ui';
+import { DraggablePanel } from '@govey1nw/lobehub-ui';
 import { memo, useState } from 'react';
 import { Flexbox } from 'react-layout-kit';
 

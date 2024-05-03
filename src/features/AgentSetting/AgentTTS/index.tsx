@@ -1,7 +1,7 @@
 'use client';
 
 import { VoiceList } from '@lobehub/tts';
-import { Form, ItemGroup } from '@lobehub/ui';
+import { Form, ItemGroup } from '@govey1nw/lobehub-ui';
 import { Form as AFrom, Select, Switch } from 'antd';
 import isEqual from 'fast-deep-equal';
 import { debounce } from 'lodash-es';

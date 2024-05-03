@@ -1,4 +1,4 @@
-import { Giscus } from '@lobehub/ui';
+import { Giscus } from '@govey1nw/lobehub-ui';
 import { memo } from 'react';
 
 const Comment = memo<{ identifier: string }>(({ identifier }) => (

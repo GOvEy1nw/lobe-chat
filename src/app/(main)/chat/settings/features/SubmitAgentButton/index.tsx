@@ -1,4 +1,4 @@
-import { ActionIcon, Icon } from '@lobehub/ui';
+import { ActionIcon, Icon } from '@govey1nw/lobehub-ui';
 import { Button } from 'antd';
 import { useResponsive } from 'antd-style';
 import { Share2 } from 'lucide-react';

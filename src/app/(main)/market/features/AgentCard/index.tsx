@@ -1,4 +1,4 @@
-import { Avatar, Tag } from '@lobehub/ui';
+import { Avatar, Tag } from '@govey1nw/lobehub-ui';
 import { Typography } from 'antd';
 import { createStyles } from 'antd-style';
 import { startCase } from 'lodash-es';

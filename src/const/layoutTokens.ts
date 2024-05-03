@@ -1,4 +1,4 @@
-import type { FormProps } from '@lobehub/ui';
+import type { FormProps } from '@govey1nw/lobehub-ui';
 
 export const HEADER_HEIGHT = 64;
 export const MOBILE_NABBAR_HEIGHT = 44;

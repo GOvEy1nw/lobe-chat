@@ -1,4 +1,4 @@
-import { Avatar, ChatHeaderTitle } from '@lobehub/ui';
+import { Avatar, ChatHeaderTitle } from '@govey1nw/lobehub-ui';
 import { Skeleton } from 'antd';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';

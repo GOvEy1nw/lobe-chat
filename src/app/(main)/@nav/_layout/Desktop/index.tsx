@@ -1,6 +1,6 @@
 'use client';
 
-import { SideNav } from '@lobehub/ui';
+import { SideNav } from '@govey1nw/lobehub-ui';
 import { memo } from 'react';
 
 import { useActiveTabKey } from '@/hooks/useActiveTabKey';

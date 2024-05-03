@@ -1,4 +1,4 @@
-import { Icon, Image, Tooltip } from '@lobehub/ui';
+import { Icon, Image, Tooltip } from '@govey1nw/lobehub-ui';
 import { Spin } from 'antd';
 import { createStyles } from 'antd-style';
 import { Loader2 } from 'lucide-react';

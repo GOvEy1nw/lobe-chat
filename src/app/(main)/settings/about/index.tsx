@@ -1,6 +1,6 @@
 'use client';
 
-import { Logo, Tag } from '@lobehub/ui';
+import { Logo, Tag } from '@govey1nw/lobehub-ui';
 import Link from 'next/link';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';

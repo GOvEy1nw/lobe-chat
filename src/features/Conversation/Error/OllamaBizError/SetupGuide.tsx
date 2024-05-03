@@ -1,4 +1,4 @@
-import { Highlighter, Snippet, TabsNav } from '@lobehub/ui';
+import { Highlighter, Snippet, TabsNav } from '@govey1nw/lobehub-ui';
 import { Steps } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from 'next/link';

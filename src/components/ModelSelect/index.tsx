@@ -1,4 +1,4 @@
-import { Icon, Tooltip } from '@lobehub/ui';
+import { Icon, Tooltip } from '@govey1nw/lobehub-ui';
 import { createStyles } from 'antd-style';
 import { LucideEye, LucidePaperclip, ToyBrick } from 'lucide-react';
 import numeral from 'numeral';

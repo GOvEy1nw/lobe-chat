@@ -3,14 +3,12 @@
 import dynamic from 'next/dynamic';
 import { memo } from 'react';
 import { Center } from 'react-layout-kit';
+import { Logo } from '@govey1nw/lobehub-ui';
 
-const LogoThree = dynamic(() => import('@govey1nw/lobehub-ui/es/LogoThree'), { ssr: false });
-const LogoSpline = dynamic(() => import('@govey1nw/lobehub-ui/es/LogoThree/LogoSpline'), { ssr: false });
-
-const Logo = memo<{ mobile?: boolean }>(({ mobile }) => {
+const LogoWelcome = memo<{ mobile?: boolean }>(({ mobile }) => {
   return mobile ? (
     <Center height={240} width={240}>
-      <LogoThree size={240} />
+      <Logo size={240} type={'3d'} />
     </Center>
   ) : (
     <Center
@@ -22,9 +20,9 @@ const Logo = memo<{ mobile?: boolean }>(({ mobile }) => {
         width: `min(976px, 80vw)`,
       }}
     >
-      <LogoSpline height={'min(482px, 40vw)'} width={'min(976px, 80vw)'} />
+      <Logo type={'3d'} height={'min(482px, 40vw)'} width={'min(976px, 80vw)'} />
     </Center>
   );
 });
 
-export default Logo;
+export default LogoWelcome;

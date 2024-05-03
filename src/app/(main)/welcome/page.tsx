@@ -5,7 +5,7 @@ import { isMobileDevice } from '@/utils/responsive';
 
 import Actions from './features/Actions';
 import Hero from './features/Hero';
-import Logo from './features/Logo';
+import LogoWelcome from './features/Logo';
 
 export const metadata: Metadata = {
   alternates: { canonical: getCanonicalUrl('/welcome') },
@@ -16,7 +16,7 @@ const Page = () => {
 
   return (
     <>
-      <Logo mobile={mobile} />
+      <LogoWelcome mobile={mobile} />
       <Hero />
       <Actions mobile={mobile} />
     </>

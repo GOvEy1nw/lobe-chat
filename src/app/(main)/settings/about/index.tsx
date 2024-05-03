@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
 
-import { OFFICIAL_SITE, RELEASES_URL } from '@/const/url';
+import { RELEASES_URL } from '@/const/url';
 import { CURRENT_VERSION } from '@/const/version';
 import Follow from '@/features/Follow';
 import { useServerConfigStore } from '@/store/serverConfig';

@@ -20,7 +20,7 @@ const LogoWelcome = memo<{ mobile?: boolean }>(({ mobile }) => {
         width: `min(976px, 80vw)`,
       }}
     >
-      <Logo type={'3d'} height={'min(482px, 40vw)'} width={'min(976px, 80vw)'} />
+      <Logo size={482} type={'3d'} />
     </Center>
   );
 });

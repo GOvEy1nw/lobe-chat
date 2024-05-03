@@ -34,8 +34,7 @@
     "welcome": {
       "afternoon": "こんにちは",
       "morning": "おはようございます",
-      "night": "こんばんは",
-      "noon": "こんにちは"
+      "night": "こんばんは"
     }
   },
   "header": "ようこそ",

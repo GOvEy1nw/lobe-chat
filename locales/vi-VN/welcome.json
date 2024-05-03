@@ -34,8 +34,7 @@
     "welcome": {
       "afternoon": "Chào buổi chiều",
       "morning": "Chào buổi sáng",
-      "night": "Chào buổi tối",
-      "noon": "Chào buổi trưa"
+      "night": "Chào buổi tối"
     }
   },
   "header": "Chào Mừng",

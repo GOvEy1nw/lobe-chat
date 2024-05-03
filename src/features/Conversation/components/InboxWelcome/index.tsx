@@ -38,18 +38,16 @@ const useStyles = createStyles(({ css, responsive }) => ({
 
 const InboxWelcome = memo(() => {
   const { t } = useTranslation('welcome');
-  const [greeting, setGreeting] = useState<'morning' | 'noon' | 'afternoon' | 'night'>();
+  const [greeting, setGreeting] = useState<'morning' | 'afternoon' | 'night'>();
   const { styles } = useStyles();
 
   useEffect(() => {
     const now = new Date();
     const hours = now.getHours();
 
-    if (hours >= 4 && hours < 11) {
+    if (hours >= 4 && hours < 12) {
       setGreeting('morning');
-    } else if (hours >= 11 && hours < 14) {
-      setGreeting('noon');
-    } else if (hours >= 14 && hours < 18) {
+    } else if (hours >= 12 && hours < 18) {
       setGreeting('afternoon');
     } else {
       setGreeting('night');

@@ -34,8 +34,7 @@
     "welcome": {
       "afternoon": "안녕하세요",
       "morning": "좋은 아침",
-      "night": "안녕히 주무세요",
-      "noon": "안녕하세요"
+      "night": "안녕히 주무세요"
     }
   },
   "header": "환영합니다",

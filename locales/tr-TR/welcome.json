@@ -34,8 +34,7 @@
     "welcome": {
       "afternoon": "İyi akşamlar",
       "morning": "Günaydın",
-      "night": "İyi geceler",
-      "noon": "Tünaydın"
+      "night": "İyi geceler"
     }
   },
   "header": "Hoş geldiniz",

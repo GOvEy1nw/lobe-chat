@@ -35,8 +35,7 @@ export default {
     welcome: {
       afternoon: '下午好',
       morning: '早上好',
-      night: '晚上好',
-      noon: '中午好',
+      night: '晚上好'
     },
   },
   header: '欢迎使用',

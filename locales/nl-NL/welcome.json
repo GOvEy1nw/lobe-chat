@@ -34,8 +34,7 @@
     "welcome": {
       "afternoon": "Goedemiddag",
       "morning": "Goedemorgen",
-      "night": "Goedenavond",
-      "noon": "Goedemiddag"
+      "night": "Goedenavond"
     }
   },
   "header": "Welkom",

@@ -34,8 +34,7 @@
     "welcome": {
       "afternoon": "Bon après-midi",
       "morning": "Bonjour",
-      "night": "Bonsoir",
-      "noon": "Bonjour"
+      "night": "Bonsoir"
     }
   },
   "header": "Bienvenue",

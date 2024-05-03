@@ -9,22 +9,22 @@
       "replaceBtn": "Replace Batch",
       "title": "New Assistant Recommendations:"
     },
-    "defaultMessage": "I am your personal intelligent assistant LobeChat, how can I help you now?\nIf you need a more professional or customized assistant, you can click on `+` to create a custom assistant",
+    "defaultMessage": "I am your personal intelligent assistant Rais, how can I help you now?\nIf you need a more professional or customized assistant, you can click on `+` to create a custom assistant",
     "qa": {
       "q01": "What is LobeHub?",
-      "q02": "What is LobeChat?",
-      "q03": "Does LobeChat have community support?",
-      "q04": "What functions does LobeChat support?",
-      "q05": "How to deploy and use LobeChat?",
-      "q06": "What is the pricing of LobeChat?",
-      "q07": "Is LobeChat free?",
+      "q02": "What is Rais?",
+      "q03": "Does Rais have community support?",
+      "q04": "What functions does Rais support?",
+      "q05": "How to deploy and use Rais?",
+      "q06": "What is the pricing of Rais?",
+      "q07": "Is Rais free?",
       "q08": "Is there a cloud service version?",
-      "q09": "Does LobeChat support local language models?",
-      "q10": "Does LobeChat support image recognition and generation?",
-      "q11": "Does LobeChat support speech synthesis and speech recognition?",
-      "q12": "Does LobeChat support a plugin system?",
+      "q09": "Does Rais support local language models?",
+      "q10": "Does Rais support image recognition and generation?",
+      "q11": "Does Rais support speech synthesis and speech recognition?",
+      "q12": "Does Rais support a plugin system?",
       "q13": "Is there a marketplace to obtain GPTs?",
-      "q14": "Does LobeChat support multiple AI service providers?",
+      "q14": "Does Rais support multiple AI service providers?",
       "q15": "What should I do if I encounter problems while using it?"
     },
     "questions": {
@@ -34,8 +34,7 @@
     "welcome": {
       "afternoon": "Good Afternoon",
       "morning": "Good Morning",
-      "night": "Good Evening",
-      "noon": "Good Noon"
+      "night": "Good Evening"
     }
   },
   "header": "Welcome",
@@ -44,6 +43,6 @@
   "slogan": {
     "desc1": "Pioneering the new age of thinking and creating. Built for you, the Super Individual.",
     "desc2": "Create your first agent and let's get started~",
-    "title": "Unlock the superpower of your brain"
+    "title": "Your Personal AI Assistant"
   }
 }

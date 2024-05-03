@@ -34,8 +34,7 @@
     "welcome": {
       "afternoon": "Boa tarde",
       "morning": "Bom dia",
-      "night": "Boa noite",
-      "noon": "Boa tarde"
+      "night": "Boa noite"
     }
   },
   "header": "Bem-vindo",

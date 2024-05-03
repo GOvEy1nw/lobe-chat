@@ -34,8 +34,7 @@
     "welcome": {
       "afternoon": "Dzień dobry",
       "morning": "Dzień dobry",
-      "night": "Dobry wieczór",
-      "noon": "Dzień dobry"
+      "night": "Dobry wieczór"
     }
   },
   "header": "Witaj",

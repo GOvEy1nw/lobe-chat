@@ -33,7 +33,6 @@ const Hero = memo(() => {
   const { t } = useTranslation('welcome');
 
   return (
-    <>
       <Flexbox
         align={'center'}
         as={'h2'}
@@ -44,7 +43,6 @@ const Hero = memo(() => {
       >
         {t('slogan.desc1')}
       </Flexbox>
-    </>
   );
 });
 

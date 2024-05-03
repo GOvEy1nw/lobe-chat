@@ -1,6 +1,5 @@
 'use client';
 
-import dynamic from 'next/dynamic';
 import { memo } from 'react';
 import { Center } from 'react-layout-kit';
 import { Logo } from '@govey1nw/lobehub-ui';

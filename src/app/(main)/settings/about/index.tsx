@@ -21,12 +21,7 @@ const Page = memo(({ mobile }: { mobile?: boolean }) => {
 
   return (
     <Flexbox align={'center'} gap={12} paddingBlock={36} width={'100%'}>
-      <Link href={OFFICIAL_SITE} target={'_blank'}>
-        <Logo size={mobile ? 100 : 120} />
-      </Link>
-      <h1 style={{ fontSize: mobile ? 32 : 36, fontWeight: 900, lineHeight: 1, marginBottom: 0 }}>
-        LobeChat
-      </h1>
+        <Logo size={mobile ? 200 : 240} type={'3d'} />
       <Link href={RELEASES_URL} target={'_blank'}>
         <Tag>v{CURRENT_VERSION}</Tag>
       </Link>

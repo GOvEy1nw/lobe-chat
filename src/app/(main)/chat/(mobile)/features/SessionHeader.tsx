@@ -34,7 +34,7 @@ const Header = memo(() => {
       left={
         <Flexbox align={'center'} gap={8} horizontal style={{ marginLeft: 8 }}>
           <div onClick={() => router.push('/me')}>
-            {avatar ? <Avatar avatar={avatar} size={28} /> : <Logo size={28} />}
+            {avatar ? <Avatar avatar={avatar} size={28} /> : <Logo size={28} type={'flat'} /> }
           </div>
           <Logo type={'text'} />
           <SyncStatusInspector placement={'bottom'} />

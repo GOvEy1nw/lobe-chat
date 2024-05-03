@@ -17,7 +17,7 @@ const Anthropic: ModelProviderCard = {
       description:
         'Most powerful model for highly complex tasks. Top-level performance, intelligence, fluency, and understanding',
       displayName: 'Claude 3 Opus',
-      enabled: true,
+      enabled: false,
       id: 'claude-3-opus-20240229',
       maxOutput: 4096,
       tokens: 200_000,

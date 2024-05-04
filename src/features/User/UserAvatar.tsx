@@ -50,7 +50,7 @@ const UserAvatar = memo<UserAvatarProps>(
     const avatar = useUserStore(userProfileSelectors.userAvatar);
     return (
       <Avatar
-        alt={avatar ? 'UserAvatar' : 'LobeChat'}
+        alt={avatar ? 'UserAvatar' : 'rais'}
         avatar={avatar || DEFAULT_USER_AVATAR_URL}
         background={avatar ? background : undefined}
         className={cx(clickable && styles.clickable, className)}

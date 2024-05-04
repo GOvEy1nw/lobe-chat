@@ -9,7 +9,7 @@ import PlanTag from '@/features/User/PlanTag';
 
 import UserAvatar, { type UserAvatarProps } from './UserAvatar';
 
-const DEFAULT_USERNAME = 'LobeChat';
+const DEFAULT_USERNAME = 'rais';
 
 const useStyles = createStyles(({ css, token }) => ({
   nickname: css`

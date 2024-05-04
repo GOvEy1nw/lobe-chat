@@ -9,7 +9,6 @@ import { Center, Flexbox } from 'react-layout-kit';
 import { useIsMobile } from '@/hooks/useIsMobile';
 
 import AgentsSuggest from './AgentsSuggest';
-import QuestionSuggest from './QuestionSuggest';
 
 const useStyles = createStyles(({ css, responsive }) => ({
   container: css`
@@ -67,7 +66,6 @@ const InboxWelcome = memo(() => {
           {t('guide.defaultMessage')}
         </Markdown>
         <AgentsSuggest mobile={mobile} />
-        <QuestionSuggest mobile={mobile} />
       </Flexbox>
     </Center>
   );

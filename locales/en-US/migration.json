@@ -10,7 +10,7 @@
     "clear": {
       "confirm": "You are about to clear local data (global settings will not be affected). Please confirm that you have downloaded a data backup."
     },
-    "description": "In the new version, LobeChat's data storage has made a huge leap. Therefore, we need to upgrade the old version data to bring you a better user experience.",
+    "description": "In the new version, Rais's data storage has made a huge leap. Therefore, we need to upgrade the old version data to bring you a better user experience.",
     "features": {
       "capability": {
         "desc": "Based on IndexedDB technology, it can store a lifetime of conversation messages.",
@@ -36,7 +36,7 @@
         "title": "Database Upgrade Successful"
       }
     },
-    "upgradeTip": "The upgrade process will take approximately 10 to 20 seconds. Please do not close LobeChat during the upgrade."
+    "upgradeTip": "The upgrade process will take approximately 10 to 20 seconds. Please do not close Rais during the upgrade."
   },
   "migrateError": {
     "missVersion": "Imported data is missing a version number. Please check the file and try again.",

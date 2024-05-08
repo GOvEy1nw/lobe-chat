@@ -154,9 +154,9 @@
   "telemetry": {
     "allow": "Toestaan",
     "deny": "Weigeren",
-    "desc": "We willen graag anonieme gebruiksgegevens verzamelen om LobeChat te verbeteren en een betere productervaring te bieden. Je kunt dit op elk moment uitschakelen in 'Instellingen' - 'Over'.",
+    "desc": "We willen graag anonieme gebruiksgegevens verzamelen om Rais te verbeteren en een betere productervaring te bieden. Je kunt dit op elk moment uitschakelen in 'Instellingen' - 'Over'.",
     "learnMore": "Meer informatie",
-    "title": "Help LobeChat verbeteren"
+    "title": "Help Rais verbeteren"
   },
   "temp": "临时",
   "terms": "Algemene voorwaarden",

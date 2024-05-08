@@ -154,9 +154,9 @@
   "telemetry": {
     "allow": "Permitir",
     "deny": "Negar",
-    "desc": "Queremos coletar anonimamente suas informações de uso para nos ajudar a melhorar o LobeChat e oferecer uma experiência de produto melhor para você. Você pode desativar a qualquer momento em Configurações - Sobre.",
+    "desc": "Queremos coletar anonimamente suas informações de uso para nos ajudar a melhorar o Rais e oferecer uma experiência de produto melhor para você. Você pode desativar a qualquer momento em Configurações - Sobre.",
     "learnMore": "Saiba mais",
-    "title": "Ajude o LobeChat a melhorar"
+    "title": "Ajude o Rais a melhorar"
   },
   "temp": "Temporário",
   "terms": "Termos de Serviço",

@@ -16,7 +16,7 @@ const Page = () => {
 
   return (
     <>
-      <Logo mobile={mobile} size={350} type={'text'} />
+      <Logo size={350} type={'text'} />
       <Hero />
       <Actions mobile={mobile} />
     </>

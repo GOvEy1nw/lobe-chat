@@ -25,7 +25,7 @@
         "title": "Daha Kullanıcı Dostu"
       }
     },
-    "title": "LobeChat Data Evolution",
+    "title": "RaisData Evolution",
     "upgrade": {
       "error": {
         "subTitle": "Üzgünüz, veritabanı yükseltme işlemi sırasında bir hata oluştu. Lütfen şu çözümleri deneyin: A. Yerel verileri temizleyin ve yedek verileri yeniden içe aktarın; B. 'Yükseltmeyi Yeniden Dene' düğmesine tıklayın.<br><br> Sorun devam ederse, lütfen <1>bir istek gönderin</1>, en kısa sürede size yardımcı olacağız.",

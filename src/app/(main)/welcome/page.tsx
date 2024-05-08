@@ -5,7 +5,7 @@ import { isMobileDevice } from '@/utils/responsive';
 
 import Actions from './features/Actions';
 import Hero from './features/Hero';
-import Logo from './features/Logo';
+import { Logo } from '@lobehub/ui';
 
 export const metadata: Metadata = {
   alternates: { canonical: getCanonicalUrl('/welcome') },
@@ -16,7 +16,7 @@ const Page = () => {
 
   return (
     <>
-      <Logo size={350} type={'text'} mobile={mobile} />
+      <Logo mobile={mobile} size={350} type={'text'} />
       <Hero />
       <Actions mobile={mobile} />
     </>

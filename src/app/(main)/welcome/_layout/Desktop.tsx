@@ -1,4 +1,3 @@
-import { Logo } from '@lobehub/ui';
 import { PropsWithChildren } from 'react';
 import { Center, Flexbox } from 'react-layout-kit';
 

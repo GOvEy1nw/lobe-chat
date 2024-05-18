@@ -1,6 +1,6 @@
-import { GridShowcase, Logo } from '@lobehub/ui';
+import { Logo } from '@lobehub/ui';
 import { PropsWithChildren } from 'react';
-import { Flexbox } from 'react-layout-kit';
+import { Center, Flexbox } from 'react-layout-kit';
 
 import Follow from '@/features/Follow';
 
@@ -16,10 +16,9 @@ const DesktopLayout = ({ children }: PropsWithChildren) => {
       style={{ overflow: 'hidden', position: 'relative' }}
       width={'100%'}
     >
-      <Logo size={75} style={{ alignSelf: 'flex-start' }} type={'text'} />
-      <GridShowcase innerProps={{ gap: 24 }} style={{ maxWidth: 1024 }} width={'100%'}>
-        {children}
-      </GridShowcase>
+      <Center gap={16} style={{ height: '100%', paddingInline: 16 }}>
+      {children}
+    </Center>
       <Flexbox align={'center'} horizontal justify={'space-between'}>
         <span style={{ opacity: 0.5 }}>{COPYRIGHT}</span>
         <Follow />

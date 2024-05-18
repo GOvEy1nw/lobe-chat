@@ -62,7 +62,7 @@ const Preview = memo<FieldType & { title?: string }>(
             <ChatList />
             {withFooter ? (
               <Flexbox align={'center'} className={styles.footer} gap={4}>
-                <Logo extra={'chat'} type={'text'} />
+                <Logo extra={'Chat'} size={36} type={'text'} />
                 <div className={styles.url}>{pkg.homepage}</div>
               </Flexbox>
             ) : (

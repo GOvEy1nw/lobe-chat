@@ -7,7 +7,6 @@ import { isMobileDevice } from '@/utils/responsive';
 import Actions from './features/Actions';
 import Hero from './features/Hero';
 import { Logo } from '@lobehub/ui';
-import AgentsSuggest from '@/features/Conversation/components/InboxWelcome/AgentsSuggest';
 
 export const generateMetadata = async () => {
   const { t } = await translation('metadata');
@@ -30,10 +29,9 @@ const Page = async () => {
   return (
     <>
       <StructuredData ld={ld} />
-      <Logo size={350} type={'text'} />
+      <Logo size={100} type={'text'} />
       <Hero />
       <Actions mobile={mobile} />
-      <AgentsSuggest mobile={mobile} />
     </>
   );
 };

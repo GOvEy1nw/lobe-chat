@@ -21,7 +21,7 @@ export const DEFAULT_AGENT_CHAT_CONFIG: LobeAgentChatConfig = {
 
 export const DEFAULT_AGENT_CONFIG: LobeAgentConfig = {
   chatConfig: DEFAULT_AGENT_CHAT_CONFIG,
-  model: 'gpt-3.5-turbo',
+  model: 'gpt-4o',
   params: {
     frequency_penalty: 0,
     presence_penalty: 0,

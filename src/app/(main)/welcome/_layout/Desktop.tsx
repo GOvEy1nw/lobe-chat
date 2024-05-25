@@ -22,7 +22,10 @@ const DesktopLayout = ({ children }: PropsWithChildren) => {
         <span style={{ opacity: 0.5 }}>{COPYRIGHT}</span>
         <Follow />
       </Flexbox>
-    </Flexbox>
+      {/* ↓ cloud slot ↓ */}
+
+      {/* ↑ cloud slot ↑ */}
+    </>
   );
 };
 

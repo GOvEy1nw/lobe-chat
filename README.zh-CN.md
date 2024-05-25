@@ -222,7 +222,7 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 | [社交搜索](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **say-apps** on **2024-05-02**</sup>             | 社交搜索提供访问推文、用户、关注者、图片、媒体等功能。<br/>`社交` `推特` `x` `搜索` |
 | [通过 Serper 搜索 Google](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **Barry** on **2024-04-30**</sup> | 通过 Serper.dev 免费 API 进行 Google 搜索引擎（每月 2500 次🆓）<br/>`网络` `搜索`   |
 
-> 📊 Total plugins: [<kbd>**58**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
+> 📊 Total plugins: [<kbd>**56**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
  <!-- PLUGIN LIST -->
 
@@ -250,14 +250,14 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 <!-- AGENT LIST -->
 
-| 最近新增                                                                                                                                                         | 助手说明                                                                                                              |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| [AWS Guru](https://chat-preview.lobehub.com/market?agent=aws-guru)<br/><sup>By **[wilbeibi](https://github.com/wilbeibi)** on **2024-05-15**</sup>               | Agent to answer AWS questions<br/>`programming`                                                                       |
-| [Linux Buddy](https://chat-preview.lobehub.com/market?agent=linux-buddy)<br/><sup>By **[Firpo7](https://github.com/Firpo7)** on **2024-05-15**</sup>             | 您的 Linux 专家朋友<br/>`linux` `technical-support` `buddy`                                                           |
-| [摄影评论家](https://chat-preview.lobehub.com/market?agent=photography-critic)<br/><sup>By **[Justin3go](https://github.com/Justin3go)** on **2024-05-15**</sup> | 擅长摄影作品细致分析，包括主题、构图、技术质量、光线使用、创意与原创性等。<br/>`摄影` `评价` `分析` `构图` `技术质量` |
-| [Python Buddy](https://chat-preview.lobehub.com/market?agent=python-buddy)<br/><sup>By **[Firpo7](https://github.com/Firpo7)** on **2024-05-15**</sup>           | 您的 Python 专家朋友<br/>`python` `软件开发` `编程` `代码` `伙伴`                                                     |
+| 最近新增                                                                                                                                                                 | 助手说明                                                                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [中文润色大师](https://chat-preview.lobehub.com/market?agent=chinese-touch-ups)<br/><sup>By **[S45618](https://github.com/S45618)** on **2024-05-24**</sup>              | 精通中文校对与修辞，旨在提升文本之流畅与雅致<br/>`校对` `文字润色` `修辞改进` `古典文学` `语言编辑`                                                                                                                                                                               |
+| [IT 系统架构师](https://chat-preview.lobehub.com/market?agent=it-system-architect)<br/><sup>By **[a562314](https://github.com/a562314)** on **2024-05-24**</sup>         | 资深 IT 架构师，擅长需求分析、系统设计、技术选型和跨平台系统优化。5 年以上经验，具备计算机科学本科学历，精通 Windows、macOS 和 Linux 三大操作系统，善于团队合作，持续学习，具备故障排除和安全防护能力。<br/>`it架构设计` `问题解决` `敏捷开发` `系统优化` `跨平台技能` `团队合作` |
+| [我的世界指令导师](https://chat-preview.lobehub.com/market?agent=mcse-helper)<br/><sup>By **[CLOT-LIU](https://github.com/CLOT-LIU)** on **2024-05-24**</sup>            | 擅长解释和示范 “我的世界” 指令<br/>`我的世界` `指令` `解释` `示例`                                                                                                                                                                                                                |
+| [哲学剖析助手](https://chat-preview.lobehub.com/market?agent=philosophical-analysis)<br/><sup>By **[epochaudio](https://github.com/epochaudio)** on **2024-05-24**</sup> | 擅长康德与黑格尔哲学分析咨询，培养批判性思维<br/>`哲学分析` `批判性思维` `系统思考`                                                                                                                                                                                               |
 
-> 📊 Total agents: [<kbd>**258**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**273**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 

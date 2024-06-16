@@ -43,6 +43,11 @@
     "title": "Instellingen"
   },
   "llm": {
+    "apiKey": {
+      "desc": "Vul je {{name}} API-sleutel in",
+      "placeholder": "{{name}} API-sleutel",
+      "title": "API-sleutel"
+    },
     "checker": {
       "button": "Controleren",
       "desc": "Test of de API-sleutel en proxyadres correct zijn ingevuld",
@@ -109,14 +114,6 @@
     },
     "waitingForMore": "Meer modellen worden <1>gepland om te worden toegevoegd</1>, dus blijf op de hoogte ✨"
   },
-  "ollama": {
-    "download": {
-      "desc": "Ollama is bezig met het downloaden van dit model. Gelieve deze pagina niet te sluiten. Het downloaden zal worden hervat vanaf het onderbroken punt als u opnieuw begint te downloaden.",
-      "remainingTime": "Resterende tijd",
-      "speed": "Downloadsnelheid",
-      "title": "Model {{model}} wordt gedownload"
-    }
-  },
   "plugin": {
     "addTooltip": "Voeg aangepaste plug-in toe",
     "clearDeprecated": "Verwijder verouderde plug-ins",
@@ -182,6 +179,7 @@
     "enableHistoryCount": {
       "alias": "Onbeperkt",
       "limited": "Bevat alleen {{number}} berichten",
+      "setlimited": "Stel berichtengeschiedenis in",
       "title": "Berichtgeschiedenis beperken",
       "unlimited": "Onbeperkt aantal berichten in de geschiedenis"
     },
@@ -369,6 +367,11 @@
   },
   "systemAgent": {
     "title": "Systeemassistent",
+    "topic": {
+      "label": "Onderwerp Naamgevingsmodel",
+      "modelDesc": "Specificeer het model dat wordt gebruikt voor automatische hernoeming van onderwerpen",
+      "title": "Automatische Onderwerpnaamgeving"
+    },
     "translation": {
       "label": "Vertaalmodel",
       "modelDesc": "Specificeer het model voor vertaling",

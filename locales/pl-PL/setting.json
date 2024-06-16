@@ -43,6 +43,11 @@
     "title": "Ustawienia"
   },
   "llm": {
+    "apiKey": {
+      "desc": "Proszę wprowadź swój klucz API {{name}}",
+      "placeholder": "{{name}} klucz API",
+      "title": "Klucz API"
+    },
     "checker": {
       "button": "Sprawdź",
       "desc": "Sprawdź poprawność wypełnienia klucza API i adresu proxy",
@@ -109,14 +114,6 @@
     },
     "waitingForMore": "Więcej modeli jest obecnie w <1>planach dołączenia</1>, prosimy o cierpliwość ✨"
   },
-  "ollama": {
-    "download": {
-      "desc": "Ollama pobiera ten model. Prosimy nie zamykać tej strony. Gdy pobieranie zostanie wznowione, będzie kontynuowane od miejsca przerwania.",
-      "remainingTime": "Czas pozostały",
-      "speed": "Prędkość pobierania",
-      "title": "Pobieranie modelu {{model}}"
-    }
-  },
   "plugin": {
     "addTooltip": "Dodaj niestandardowy dodatek",
     "clearDeprecated": "Usuń przestarzałe dodatki",
@@ -182,6 +179,7 @@
     "enableHistoryCount": {
       "alias": "Bez limitu",
       "limited": "Zawiera tylko {{number}} wiadomości",
+      "setlimited": "Ustaw limit wiadomości historycznych",
       "title": "Ograniczenie liczby wiadomości w historii",
       "unlimited": "Bez limitu wiadomości w historii"
     },
@@ -369,6 +367,11 @@
   },
   "systemAgent": {
     "title": "Asystent Systemowy",
+    "topic": {
+      "label": "Model nazewnictwa tematów",
+      "modelDesc": "Określa model używany do automatycznego zmieniania nazw tematów",
+      "title": "Automatyczne nadawanie nazw tematom"
+    },
     "translation": {
       "label": "Model Tłumaczenia",
       "modelDesc": "Określ model używany do tłumaczenia",
@@ -382,7 +385,7 @@
     "experiment": "Eksperyment",
     "llm": "Model językowy",
     "sync": "Synchronizacja w chmurze",
-    "system-agent": "System Assistant",
+    "system-agent": "System Agent",
     "tts": "Usługa głosowa"
   },
   "tools": {

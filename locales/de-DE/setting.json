@@ -43,6 +43,11 @@
     "title": "Einstellungen"
   },
   "llm": {
+    "apiKey": {
+      "desc": "Bitte geben Sie Ihren {{name}} API-Schlüssel ein",
+      "placeholder": "{{name}} API-Schlüssel",
+      "title": "API-Schlüssel"
+    },
     "checker": {
       "button": "Überprüfen",
       "desc": "Überprüfen Sie, ob der API-Schlüssel und die Proxy-Adresse korrekt eingegeben wurden",
@@ -109,14 +114,6 @@
     },
     "waitingForMore": "Weitere Modelle werden <1>geplant</1>, bitte freuen Sie sich auf weitere Updates ✨"
   },
-  "ollama": {
-    "download": {
-      "desc": "Ollama lädt dieses Modell herunter. Bitte schließen Sie diese Seite nicht. Der Download wird an der abgebrochenen Stelle fortgesetzt, wenn Sie ihn erneut starten.",
-      "remainingTime": "Verbleibende Zeit",
-      "speed": "Download-Geschwindigkeit",
-      "title": "Modell {{model}} wird heruntergeladen"
-    }
-  },
   "plugin": {
     "addTooltip": "Benutzerdefiniertes Plugin",
     "clearDeprecated": "Entfernen Sie ungültige Plugins",
@@ -182,6 +179,7 @@
     "enableHistoryCount": {
       "alias": "Unbegrenzt",
       "limited": "Enthält nur {{number}} Gesprächsnachrichten",
+      "setlimited": "Setzen Sie die begrenzte Anzahl von Nachrichten",
       "title": "Historiennachrichten begrenzen",
       "unlimited": "Unbegrenzte Historiennachrichten"
     },
@@ -369,6 +367,11 @@
   },
   "systemAgent": {
     "title": "Systemassistent",
+    "topic": {
+      "label": "Themenbenennungsmodell",
+      "modelDesc": "Das Modell, das für die automatische Umbenennung von Themen verwendet wird",
+      "title": "Automatische Themenbenennung"
+    },
     "translation": {
       "label": "Übersetzungsmodell",
       "modelDesc": "Das für die Übersetzung verwendete Modell",

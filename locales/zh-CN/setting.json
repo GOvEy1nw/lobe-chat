@@ -43,6 +43,11 @@
     "title": "设置"
   },
   "llm": {
+    "apiKey": {
+      "desc": "请填写你的 {{name}} API Key",
+      "placeholder": "{{name}} API Key",
+      "title": "API Key"
+    },
     "checker": {
       "button": "检查",
       "desc": "测试 Api Key 与代理地址是否正确填写",
@@ -109,14 +114,6 @@
     },
     "waitingForMore": "更多模型正在 <1>计划接入</1> 中，敬请期待 ✨"
   },
-  "ollama": {
-    "download": {
-      "desc": "Ollama 正在下载该模型，请尽量不要关闭本页面。重新下载时将会中断处继续",
-      "remainingTime": "剩余时间",
-      "speed": "下载速度",
-      "title": "正在下载模型 {{model}} "
-    }
-  },
   "plugin": {
     "addTooltip": "自定义插件",
     "clearDeprecated": "移除无效插件",
@@ -182,6 +179,7 @@
     "enableHistoryCount": {
       "alias": "不限制",
       "limited": "只包含 {{number}} 条会话消息",
+      "setlimited": "使用历史消息数",
       "title": "限制历史消息数",
       "unlimited": "不限历史消息数"
     },
@@ -369,10 +367,15 @@
   },
   "systemAgent": {
     "title": "系统助手",
+    "topic": {
+      "label": "话题命名模型",
+      "modelDesc": "指定用于话题自动重命名的模型",
+      "title": "话题自动命名"
+    },
     "translation": {
       "label": "翻译模型",
       "modelDesc": "指定用于翻译的模型",
-      "title": "翻译助手设置"
+      "title": "消息内容翻译"
     }
   },
   "tab": {
